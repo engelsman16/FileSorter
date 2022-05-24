@@ -1,5 +1,4 @@
 <h1 align = center>FileSorter</h1>
-
 ---
 
 ### Run ./py main.py to sort files in :
