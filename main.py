@@ -14,12 +14,16 @@ extenstionSet = {
     ".pptx": "Documents",
     ".xls": "Documents",
     ".xlsx": "Documents",
+    ".drawio": "Documents",
     ".zip": "Compressed",
     ".rar": "Compressed",
     ".mp3": "Musics",
     ".m4a": "Musics",
     ".ogg": "Musics",
     ".wav": "Musics",
+    ".JPG": "Pictures",
+    ".svg": "Pictures",
+    ".jpeg": "Pictures",
     ".jpg": "Pictures",
     ".png": "Pictures",
     ".gif": "Pictures",
@@ -78,7 +82,7 @@ def Organize(path, extSet):
 
         CRED = "\033[92m"
         CEND = "\033[0m"
-        print(CRED + "Done!" + CEND)
+        print(CRED + "\nDone!" + CEND)
 
 
 Organize("C:\\Users\\" + os.environ.get("USERNAME") + "\\Downloads", extenstionSet)
